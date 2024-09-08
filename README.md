@@ -30,3 +30,11 @@ index e69de29..2a3f945 100644
 and show me that what different between each README.md
 
 1,6 ?
+
+Is HEAD the same?
+
+No, It change from main to one-set.
+
+If you look at your README.md file in VS Code (or by “catting” it), is it the same?
+
+After making changes to the README.md file in the one-set branch and switching back to the main branch, the contents of the README.md file will be different. The changes made on one-set are not reflected on main because the two branches are separate.
