@@ -48,12 +48,12 @@ In step 1.2, README.md was an untracked file; however, the current `git status` 
 
 In one or two sentences each, what does each command do?
 
-- `git init`
-- `git status`
-- `git add`
-- `git commit`
-- `git log`
-- `git diff`
+- `git init` which is used to create a git repository
+- `git status` Tells you which of the files in your current directory are different from the latest commit in the repo.
+- `git add` which adds a file to git's index (files about to be committed)
+- `git commit` which commits the files from the index (staging area) as a new snapshot, so they are now part of the repository's history.
+- `git log` Shows you the commit history
+- `git diff` used to compare changes between different states of your Git repository
 
 ### 1.7 Repository link
 
