@@ -73,6 +73,9 @@ The nested-loop approach has a runtime of O(n^2) but uses O(1) memory. The set-b
 
 In your own words, what does each GitHub merge option do?
 
-- Create a merge commit
+- Create a merge commit 
+Combines all commits from the feature branch into the base branch by creating a new merge commit. It preserves the complete history of the branch.
 - Squash and merge
+Combines all commits from the feature branch into a single, clean commit on the base branch. It simplifies the commit history.
 - Rebase and merge
+Applies each individual commit from the feature branch onto the tip of the base branch without creating a merge commit, creating a linear history.
