@@ -63,8 +63,11 @@ https://github.com/Hayden514/lab03-exercises
 In your own words:
 
 - How does the nested-loop approach check for a duplicate?
+The nested-loop approach compares each element with every subsequent element using two layers of loops to check for a duplicate.
 - How does the set-based approach check for a duplicate?
+The set-based approach iterates through the list once, storing each encountered element in a HashSet. If an element is already present in the set, a duplicate is found.
 - What is the runtime and memory trade-off of each?
+The nested-loop approach has a runtime of O(n^2) but uses O(1) memory. The set-based approach is faster with a runtime of O(n) but requires O(n) auxiliary memory to store the set.
 
 ### 1.9 Pull request merge options
 
