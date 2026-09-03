@@ -56,6 +56,7 @@ In one or two sentences each, what does each command do?
 - `git diff` used to compare changes between different states of your Git repository
 
 ### 1.7 Repository link
+https://github.com/Hayden514/lab03-exercises
 
 ### 1.8 Comparing approaches
 
